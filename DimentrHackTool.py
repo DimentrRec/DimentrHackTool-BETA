@@ -43,7 +43,7 @@ if inp == "6":
    subprocess.call("pkg install tor curl openssl*", shell=True)
    subprocess.call("git clone https://github.com/thelinuxchoice/instashell", shell=True)
   
- if inp =="7":
+if inp =="7":
    subprocess.call("git clone https://github.com/thelinuxchoice/tweetshell", shell=True)
 
 if inp =="8":
@@ -53,4 +53,4 @@ if inp =="9":
   subprocess.call("git clone https://github.com/maldevel/IPGeoLocation", shell=True)
  
 if inp =="10":
-  subprocess.call("git clone https://github.com/DimentrRec/Generation-Password", shell=True)thelinuxchoice/instashell", shell=True)
+  subprocess.call("git clone https://github.com/DimentrRec/Generation-Password", shell=True)
